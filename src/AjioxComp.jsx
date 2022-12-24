@@ -10,7 +10,7 @@ const AjioxComp = ()=>{
         useEffect(()=>{
             const getData = async()=>{
                 // const res = await axios.get(`https://pokeapi.co/api/v2/pokemon/${num}`)
-                const res = await axios.get("http://localhost:8000/") 
+                const res = await axios.get("https://testing-server-ffi7.onrender.com") 
                 // const res = await fetch("http://localhost:8000");
                 console.log(res.data);
                 // setName(res.data.name)
